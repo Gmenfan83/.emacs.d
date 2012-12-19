@@ -1,0 +1,13 @@
+# ************************************** NON LOGIN SHELL *****************************************************
+
+#set path
+export PATH=/usr/local/bin/:$PATH
+
+#add safety alias to shell
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+
+#add colors to shell
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced

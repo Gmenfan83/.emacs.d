@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#cron job to push to git
+
+#change to git emacs repo
+cd ~/.emacs.d
+
+#commit changes
+stamp = $(date +" %m-%d-%Y")
+git commit -m "Pushed.$stamp"
+
+#push changes with the -a flag for changes to files to be auto written
+git push -a origin master
+
+printf("Test")
+

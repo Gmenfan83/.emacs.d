@@ -1,0 +1,30 @@
+#***************************************** LOGIN SHELL **********************************************************
+
+#add safety alias to shell
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+
+#add colors to shell
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+
+
+#add python to path
+PYTHONPATH=${PYTHONPATH}:/Library/Frameworks/Python.framework/Versions/2.x/lib/python2.x/site-packages/
+export PYTHONPATH
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+#RVMRubyGem Directory switch function
+
+function gemdir {
+  if [[ -z "$1" ]] ; then
+	      echo "gemdir expects a parameter, which should be a valid RVM Ruby selector"
+	        else
+			    rvm "$1"
+			        cd $(rvm gemdir)
+				    pwd
+				      fi
+			      }
