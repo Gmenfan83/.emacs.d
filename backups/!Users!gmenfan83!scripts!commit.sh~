@@ -3,7 +3,7 @@
 #launchd to push to git
 
 #change to git emacs repo
-cd .emacs.d/
+cd /Users/gmenfan83/.emacs.d
 
 #add new files to git repo
 git add .
