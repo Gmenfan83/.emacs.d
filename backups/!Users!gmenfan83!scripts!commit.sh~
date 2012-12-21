@@ -1,0 +1,19 @@
+#!/bin/sh
+
+#launchd to push to git
+
+#change to git emacs repo
+cd .emacs.d/
+
+#add new files to git repo
+git add .
+
+#commit changes
+now=$(date +"%m_%d_%Y_%H_%M_%S")
+git commit -m "commit $now"
+
+#push changes 
+git push -u origin master
+
+echo ".emacs.d/  successful $now"
+

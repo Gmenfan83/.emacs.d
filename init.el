@@ -3,6 +3,8 @@
 (setq py-install-directory "~/.emacs.d/plugins/python-mode.el-6.0.11/")
 (require 'python-mode)
 
+;;set font size
+(set-face-attribute 'default nil :height 115)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -34,3 +36,7 @@
 
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)
+
+;;set ido-mode
+(require 'ido)
+    (ido-mode t)
