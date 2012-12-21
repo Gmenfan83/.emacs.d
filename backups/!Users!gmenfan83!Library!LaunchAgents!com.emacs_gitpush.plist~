@@ -3,25 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.emacs_gitpush</string>
+	<string>com.emacs_gitpush.plist</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>~/scripts/commit.sh</string>
+		<string>/Users/gmenfan83/scripts/commit.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
-	<key>StartCalendarInterval</key>
-	<dict>
-		<key>Hour</key>
-		<integer>20</integer>
-		<key>Minute</key>
-		<integer>0</integer>
-	</dict>
+	<key>StartInterval</key>
+	<integer>60</integer>
 	<key>WatchPaths</key>
-	<array>
-		<string>/Users/gmenfan83/Library/LaunchAgents/com.emacs_gitpush.plist</string>
-	</array>
+	<array/>
 </dict>
 </plist>
 
-<!-- @@@@LingonWhatStart:~/scripts/commit.sh@@@@LingonWhatEnd -->
+<!-- @@@@LingonWhatStart:/Users/gmenfan83/scripts/commit.sh@@@@LingonWhatEnd -->
