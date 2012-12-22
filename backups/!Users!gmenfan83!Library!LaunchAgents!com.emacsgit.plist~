@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.emacsgit.plist</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/gmenfan83/scripts/commit.sh</string>
+	</array>
+        <key>StartCalendarInterval</key>
+        <dict>
+        <key>Hour</key>
+        <integer>18</integer>
+        <key>StandardErrorPath</key>
+        <string>/Users/gmenfan83/sripts/errorlog.err</string>
+        <key>StandardOutPath</key>
+        <string>/Users/gmenfan83/scripts/emacsgit.out</string>
+</dict>
+</dict>
+</plist>
