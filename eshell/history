@@ -44,3 +44,7 @@ ls -l
 chmod +x commit.sh 
 source commit.sh 
 cat cronLog.txt 
+cd ../Python/
+cd handsOnExamples/
+./face.py 
+./face2.py

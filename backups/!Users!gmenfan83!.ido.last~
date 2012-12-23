@@ -1,0 +1,55 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "gmenfan83/")
+ ("/" . "Users/")
+ ("/Users/gmenfan83/Desktop/" . "c class/")
+ ("/Users/gmenfan83/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/gmenfan83/Desktop/c class/"
+ "/Users/gmenfan83/"
+ "/Users/gmenfan83/Desktop/Humanities/"
+ "/Users/gmenfan83/Desktop/"
+ "/Users/gmenfan83/emacs/"
+ "/Users/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "10.cpp"
+ "16.cpp"
+ ".emacs"
+ "notes.org"
+ "math"
+ "museuminstructions.txt"
+ "13.cpp"
+ "test.cpp"
+ ".gnus.el"
+ "17.cpp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/gmenfan83/Desktop/c class/" (20252 2654) "test.cpp" "Exercise13" "C++ commands.rtf" "16.o" "16.cpp" "16" "13.cpp" "10.o" "10.cpp" "10" ".DS_Store" "../" "./")
+
+ ("/Users/gmenfan83/Desktop/" (20251 32574) "Xcode snippets.rtf" "Quick Note Images/" "Quick Note/" "math test 1.pages" "Humanities/" "Contract .pages" "c class/" "App Images/" ".yXAK_7Wx3Q4=/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/gmenfan83/" (20251 32612) "vim/" "Public/" "Project/" "Pictures/" "News/" "Music/" "Movies/" "Mail/" "Library/" "Images/" "emacs/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Clam Av Quarentine/" "Applications/" ".Xauthority" ".vimrc" ".viminfo" ".vim-tmp/" ".vim/" ".Trash/" ".swt/" ".swp" ".serverauth.3544" ".nchsoftware/" ".mplayer/" ".ido.last" ".gdb_history" ".fontconfig/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cups/" ".CFUserTextEncoding" ".bash_history" ".adobe/" "../" "./")
+
+ ("/Users/gmenfan83/Desktop/Humanities/" (20248 49226) "notes.org" "MuseumInstr.rtf" "MuseumForm.pages" ".DS_Store" ".#notes.org" "../" "./")
+
+ ("/Users/gmenfan83/Desktop/math/" (20248 47410) "../" "./")
+
+ ("/Users/gmenfan83/emacs/" (20246 12484) "zenburn-theme.el" "themes/" "color-theme.el" "color-theme-library.el" "color-theme-example.el" ".DS_Store" "../" "./")
+
+ ("/Users/" (20179 43657) "Shared/" "gmenfan83/" ".localized" "../" "./")
+
+ ("/Users/gmenfan83/.emacs.d/" (20245 2388) "backups/" "autosaves/" "auto-save-list/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

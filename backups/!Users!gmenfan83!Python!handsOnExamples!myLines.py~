@@ -1,0 +1,12 @@
+#!/usr/bin/python
+from graphics import *
+
+def window():
+    win = GraphWin(200, 300)
+    win.draw()
+def cir():
+    cir = Circle(Point(40, 100)25)
+    cir.draw(win)
+def main():
+    window()
+    cir()
