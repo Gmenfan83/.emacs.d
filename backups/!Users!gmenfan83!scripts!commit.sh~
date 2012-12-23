@@ -9,7 +9,7 @@ cd /Users/gmenfan83/.emacs.d
 git add .
 
 #commit changes
-now=$(date +"%m_%d_%Y_%H:%M:%S")
+now=$(date +"%m/%d/%Y_%H:%M:%S")
 git commit -m "commit $now"
 
 #push changes 
